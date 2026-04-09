@@ -1,0 +1,128 @@
+/* Fix full background gradient */
+/* body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#942ae0, #42006C);
+    height: 100vh;
+ 
+
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+ margin-top: 150px;
+ width: 400px;
+ align-items: center;
+ background-color: aliceblue;
+ 
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    width: 100%;
+  
+}
+
+.text {
+    font-size: 40px;
+    font-weight: 700;
+    color:#cd99d9
+}
+
+.underline {
+    height: 6px;
+    width: 70px;
+    background-color: #3a1850;
+    border-radius: 10px;
+}
+
+.inputs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 150px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input img {
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+} */
+/* @media (max-width: 320px) {
+    .background1 {
+         display: flex;
+         height: 100%;
+         width: 100%;
+         margin-top:40% ;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30%;
+
+    }
+} */
+
+  
+@media (max-width: 375px) {
+    .background1 {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        margin: 0 auto;
+        transform: none !important;
+      }
+    
+      .form {
+        margin: 2rem auto !important;
+        padding: 1.5rem !important;
+        width: 90% !important;
+      }
+    }
+
+
+@media (max-width: 425px) {}
+
+@media (max-width: 600px) {}
+
+/* Responsive design for tablets and mobile */
+@media (max-width: 768px) {
+}
+  
+
+@media (max-width: 900px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 1280px) {}
+
+@media (max-width: 1440px) {}
